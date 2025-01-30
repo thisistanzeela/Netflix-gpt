@@ -13,7 +13,10 @@
 - Create SignUp User Account
 - Implement SignIn User Api
 - Created Redux Store with userSlice
--
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: If the user is not logged in Redirect/Browse to Login Page and vice-versa
+- Unsubcribed to the onAuthStateChange callback
+ 
 
 # Features
 - Login/Sign Up
