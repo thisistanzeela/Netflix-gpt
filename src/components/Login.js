@@ -21,9 +21,6 @@ const Login = () => {
   const password = useRef(null);
 
   const handleFormSubmit = () => {
-    // console.log(email.current.value);
-    // console.log(name.current.value);
-
     const message = checkValidDate(
       email.current.value,
       password.current.value,
@@ -45,7 +42,7 @@ const Login = () => {
             photoURL: USER_AVATAR,
           })
             .then(() => {
-              const { uid, email, displayName, photoURL } = auth.currentUser ;
+              const { uid, email, displayName, photoURL } = auth.currentUser;
               dispatch(
                 addUser({
                   uid: uid,
@@ -58,7 +55,6 @@ const Login = () => {
             .catch((error) => {
               setErrorMessage(error.message);
             });
-          console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -89,10 +85,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src={BACKGROUND_IMG}
-          alt="background img"
-        />
+        <img src={BACKGROUND_IMG} alt="background img" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}

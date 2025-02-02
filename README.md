@@ -9,7 +9,7 @@
 - Form Validation
 - useRef Hook
 - Firebase Setup
-- Deploying our app to Producion
+- Deploying our app to Production
 - Create SignUp User Account
 - Implement SignIn User Api
 - Created Redux Store with userSlice
@@ -17,6 +17,15 @@
 - BugFix: If the user is not logged in Redirect/Browse to Login Page and vice-versa
 - Unsubcribed to the onAuthStateChange callback
 - Add hardcoded values to the constant file
+- Register TMDB API & create an app & get access token
+- Gete data from tmdb now playing movies list API
+- Custom hook for Now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- fetch data fr trailer video
+- Update store with trailer video data
+- Embedded the Youtube video and make it autoplay and mute
+- Tailwind classes 
 
 # Features
 - Login/Sign Up
