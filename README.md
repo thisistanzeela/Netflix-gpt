@@ -26,6 +26,7 @@
 - Update store with trailer video data
 - Embedded the Youtube video and make it autoplay and mute
 - Tailwind classes 
+- Build Secondary Component
 
 # Features
 - Login/Sign Up
