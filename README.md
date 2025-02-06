@@ -27,6 +27,13 @@
 - Embedded the Youtube video and make it autoplay and mute
 - Tailwind classes 
 - Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN Url
+- usePopularMovies custom hook
+- GPT Search Page
+- GPT Search Bar
+- Multi-language feature in our App
 
 # Features
 - Login/Sign Up
